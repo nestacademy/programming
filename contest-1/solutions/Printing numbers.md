@@ -9,7 +9,7 @@ _**NNN...N**_</br>
 
 # Бодолт 
 ## Solution 1.
-###Straight-forwart implementation using nested-loop.
+### Straight-forwart implementation using nested-loop.
 
 ```
 void solve(int n) {
