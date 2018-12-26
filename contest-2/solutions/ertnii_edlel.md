@@ -23,25 +23,36 @@
 
 # Sample testcases
 ##### Sample Input 0
+```
 ababaababa
 baab
+```
 ##### Sample Output 0
+```
 2
 4 9
+```
 
 ##### Sample Input 1
+```
 nestacademy
 proleague
+```
 ##### Sample Output 1
+```
 -1
+```
 
 ##### Sample Input 2
+```
 aaaa
 a
+```
 ##### Sample Output 2
+```
 4
 1 2 3 4
-
+```
 ## Solution
 ```
 #include <iostream>
@@ -75,7 +86,7 @@ int main() {
         cout << -1 << endl;
         return 0;
     }
-    
+
     cout << answer << endl;
     for (int i = 0; i < pos.size(); i++) {
         cout << pos[i] + 1 << " ";

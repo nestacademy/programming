@@ -14,10 +14,14 @@
 
 # Sample testcases
 ##### Sample Input 0
+```
 4 2
 1 2 3 4
+```
 ##### Sample Output 0
+```
 2
+```
 
 ## Solution
 ```
